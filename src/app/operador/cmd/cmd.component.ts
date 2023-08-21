@@ -378,7 +378,7 @@ reiniciarFormulario() {
 }
 gerarProtocolo() {
   const numeroProtocolo = Math.floor(Math.random() * 1000000);
-  return `${numeroProtocolo.toString().padStart(6, '0')}-PRI`;
+  return `${numeroProtocolo.toString().padStart(6, '0')}-CMD`;
 }
 enviarPedido() {
   if (this.selectedPiece && this.selectedRapport && this.selectedEstado && this.selectedMaquina) {
