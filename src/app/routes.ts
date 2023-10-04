@@ -4,6 +4,8 @@ import { CmdComponent } from './operador/cmd/cmd.component';
 import { Peca3DComponent } from './operador/peca3-d/peca3-d.component';
 import { PreparadorCMDComponent } from './operador/operador/operador/preparador-cmd/preparador-cmd.component';
 
+
+// Configuração dos routes (links para redirecionar)
 export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'operador' },
 
